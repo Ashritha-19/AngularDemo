@@ -1,17 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ShortsComponent } from './shorts.component';
 
-describe('ShortsComponent', () => {
-  let component: ShortsComponent;
-  let fixture: ComponentFixture<ShortsComponent>;
+import { WatchLaterComponent } from './watch-later.component';
+
+describe('WatchLaterComponent', () => {
+  let component: WatchLaterComponent;
+  let fixture: ComponentFixture<WatchLaterComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ShortsComponent]
+      declarations: [WatchLaterComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ShortsComponent);
+    fixture = TestBed.createComponent(WatchLaterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

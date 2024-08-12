@@ -1,17 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ShortsComponent } from './shorts.component';
 
-describe('ShortsComponent', () => {
-  let component: ShortsComponent;
-  let fixture: ComponentFixture<ShortsComponent>;
+import { LikedVideosComponent } from './liked-videos.component';
+
+describe('LikedVideosComponent', () => {
+  let component: LikedVideosComponent;
+  let fixture: ComponentFixture<LikedVideosComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ShortsComponent]
+      declarations: [LikedVideosComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ShortsComponent);
+    fixture = TestBed.createComponent(LikedVideosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
